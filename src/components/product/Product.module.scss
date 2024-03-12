@@ -1,0 +1,36 @@
+@import '../../assets/styles/functions';
+
+.wrapper_product {
+	border: 1px solid black;
+}
+
+.img_product {
+	width: adapt(100px, 1440px);
+}
+
+.title {
+}
+
+.description {
+}
+
+.count {
+}
+
+.price {
+}
+
+.block__buttons {
+	display: flex;
+	gap: 1rem;
+
+	> button {
+		background-color: bisque;
+		width: adapt(100px, 1440px);
+
+		&:hover {
+			cursor: pointer;
+			border: 1px solid black;
+		}
+	}
+}
